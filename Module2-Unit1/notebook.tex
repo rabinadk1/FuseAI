@@ -1,0 +1,752 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{Introduction}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \hypertarget{assignment-1.1-python}{%
+\section{Assignment 1.1 Python}\label{assignment-1.1-python}}
+
+Python is an easy to learn, powerful programming language with efficient
+high-level data structures and object-oriented programming. Python's
+elegant syntax and dynamic typing, together with its interpreted nature,
+make it an ideal language for scripting and rapid application
+development in many areas on most platforms.
+
+    \hypertarget{jupyter-notebook}{%
+\subsubsection{Jupyter Notebook}\label{jupyter-notebook}}
+
+What you are reading now is an example of a Jupyter Notebook. The basic
+concept is that of a ``notebook'' containing text and programming code.
+You can easily edit the notebook using your web browser, run the
+programs in the ipython server in the background and see the output of
+the programs within the notebook. This is a powerful paradigm that is
+well suited to machine learning research, particularly when
+collaborating with other people. For Reference: -
+https://ipython.org/notebook.html - https://jupyter.org/
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{c+c1}{\PYZsh{} This rectangular box is a \PYZdq{}Cell\PYZdq{} in Jupyter Notebook (click to edit)}
+        \PY{c+c1}{\PYZsh{} This line starting with \PYZsh{} symbol is a comment}
+        \PY{c+c1}{\PYZsh{} Press run on the menu or CTRL + ENTER to run this cell}
+        \PY{c+c1}{\PYZsh{} or SHIFT + ENTER to run this cell and move to next cell}
+        \PY{c+c1}{\PYZsh{} to escape from the current cell press ESC and H to see shortcut keys available}
+        
+        \PY{n}{var1} \PY{o}{=} \PY{l+m+mi}{5}
+        \PY{n}{var2} \PY{o}{=} \PY{l+m+mi}{6}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{var1} \PY{o}{*} \PY{n}{var2}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+30
+
+    \end{Verbatim}
+
+    Please go through https://docs.python.org/3/tutorial/introduction.html
+to get started with basic python introduction Python also provides some
+built-in data types, in particular, dict, list, set and frozenset, and
+tuple. The str class is used to hold Unicode strings, and the bytes
+class is used to hold binary data. Visit the following page to know
+about the built-in data types
+https://docs.python.org/3/library/stdtypes.html
+
+    \hypertarget{tuples}{%
+\subsubsection{TUPLES}\label{tuples}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{c+c1}{\PYZsh{} Experiement here with your knowledge of Tuples}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-1}{%
+\subsubsection{Exercise 1}\label{exercise-1}}
+
+T is a Nested Tuple, use indexing to extract `g' from the Tuple
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{n}{T} \PY{o}{=} \PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{a}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{b}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{c}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{d}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{e}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{f}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{f}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{g}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{thisisg} \PY{o}{=} \PY{k+kc}{None}
+        \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+        \PY{n}{thisisg} \PY{o}{=} \PY{n}{T}\PY{p}{[}\PY{l+m+mi}{4}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{thisisg}\PY{o}{==}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{g}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} BEGIN HIDDEN hTESTS}
+        \PY{k}{assert}\PY{p}{(}\PY{n}{thisisg}\PY{o}{==}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{g}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-2-lists}{%
+\subsubsection{Exercise 2 (Lists)}\label{exercise-2-lists}}
+
+Find the sum of the smallest 10 numbers of List L Indexing, Sorted and
+sum function could be useful
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}5}]:} \PY{n}{L} \PY{o}{=}\PY{p}{[}\PY{l+m+mi}{75}\PY{p}{,} \PY{l+m+mi}{28}\PY{p}{,} \PY{l+m+mi}{47}\PY{p}{,} \PY{l+m+mi}{51}\PY{p}{,} \PY{l+m+mi}{96}\PY{p}{,} \PY{l+m+mi}{76}\PY{p}{,} \PY{l+m+mi}{32}\PY{p}{,} \PY{l+m+mi}{57}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{25}\PY{p}{,} \PY{l+m+mi}{62}\PY{p}{,} \PY{l+m+mi}{17}\PY{p}{,}  \PY{l+m+mi}{9}\PY{p}{,} \PY{l+m+mi}{68}\PY{p}{,} \PY{l+m+mi}{65}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{,}
+               \PY{l+m+mi}{54}\PY{p}{,} \PY{l+m+mi}{34}\PY{p}{,} \PY{l+m+mi}{41}\PY{p}{,} \PY{l+m+mi}{74}\PY{p}{,} \PY{l+m+mi}{83}\PY{p}{,} \PY{l+m+mi}{91}\PY{p}{,} \PY{l+m+mi}{59}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{88}\PY{p}{,} \PY{l+m+mi}{59}\PY{p}{,} \PY{l+m+mi}{91}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mi}{9}\PY{p}{,} \PY{l+m+mi}{90}\PY{p}{,} \PY{l+m+mi}{46}\PY{p}{,} \PY{l+m+mi}{58}\PY{p}{,} \PY{l+m+mi}{25}\PY{p}{,}
+               \PY{l+m+mi}{62}\PY{p}{,} \PY{l+m+mi}{32}\PY{p}{,} \PY{l+m+mi}{74}\PY{p}{,}  \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{61}\PY{p}{,} \PY{l+m+mi}{43}\PY{p}{,} \PY{l+m+mi}{25}\PY{p}{,} \PY{l+m+mi}{62}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{49}\PY{p}{,} \PY{l+m+mi}{40}\PY{p}{,} \PY{l+m+mi}{44}\PY{p}{,} \PY{l+m+mi}{83}\PY{p}{,} \PY{o}{\PYZhy{}}\PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{13}\PY{p}{,} \PY{l+m+mi}{35}\PY{p}{]}
+        
+        \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+        \PY{n}{ans} \PY{o}{=} \PY{n+nb}{sum}\PY{p}{(}\PY{n+nb}{sorted}\PY{p}{(}\PY{n}{L}\PY{p}{)}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{10}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}6}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{ans}\PY{o}{==}\PY{l+m+mi}{16}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{control-flow}{%
+\subsection{Control Flow}\label{control-flow}}
+
+Python supports different Controls flow statements: - While \ldots{} -
+if \ldots{} elif \ldots{} else \ldots{} - for \ldots{} in \ldots{} -
+with \ldots{}
+
+https://docs.python.org/3/tutorial/controlflow.html
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}7}]:} \PY{c+c1}{\PYZsh{} Experiment with Loops here; try printing out number which are divisible by 3}
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{100}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{n}{i}\PY{o}{\PYZpc{}}\PY{k}{3}==0:
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{i}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+33
+36
+39
+42
+45
+48
+51
+54
+57
+60
+63
+66
+69
+72
+75
+78
+81
+84
+87
+90
+93
+96
+99
+
+    \end{Verbatim}
+
+    \hypertarget{exercise-3}{%
+\subsubsection{Exercise 3}\label{exercise-3}}
+
+Write a program which will list all such numbers which are divisible by
+7 but are not a multiple of 5, between 2000 and 3200 (both
+included).logical Operator, for, if, and range could be helpful.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}8}]:} \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{2000}\PY{p}{,}\PY{l+m+mi}{3201}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{p}{(}\PY{n}{i}\PY{o}{\PYZpc{}}\PY{k}{7}==0 and i\PYZpc{}5!=0):
+                \PY{n+nb}{print}\PY{p}{(}\PY{n}{i}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+2002
+2009
+2016
+2023
+2037
+2044
+2051
+2058
+2072
+2079
+2086
+2093
+2107
+2114
+2121
+2128
+2142
+2149
+2156
+2163
+2177
+2184
+2191
+2198
+2212
+2219
+2226
+2233
+2247
+2254
+2261
+2268
+2282
+2289
+2296
+2303
+2317
+2324
+2331
+2338
+2352
+2359
+2366
+2373
+2387
+2394
+2401
+2408
+2422
+2429
+2436
+2443
+2457
+2464
+2471
+2478
+2492
+2499
+2506
+2513
+2527
+2534
+2541
+2548
+2562
+2569
+2576
+2583
+2597
+2604
+2611
+2618
+2632
+2639
+2646
+2653
+2667
+2674
+2681
+2688
+2702
+2709
+2716
+2723
+2737
+2744
+2751
+2758
+2772
+2779
+2786
+2793
+2807
+2814
+2821
+2828
+2842
+2849
+2856
+2863
+2877
+2884
+2891
+2898
+2912
+2919
+2926
+2933
+2947
+2954
+2961
+2968
+2982
+2989
+2996
+3003
+3017
+3024
+3031
+3038
+3052
+3059
+3066
+3073
+3087
+3094
+3101
+3108
+3122
+3129
+3136
+3143
+3157
+3164
+3171
+3178
+3192
+3199
+
+    \end{Verbatim}
+
+    \hypertarget{exercise-4-function}{%
+\subsubsection{Exercise 4 (Function)}\label{exercise-4-function}}
+
+write a function fibbo to return a list of ``n'' (greater than 2)
+fibonnaci number
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}9}]:} \PY{k}{def} \PY{n+nf}{fibbo}\PY{p}{(}\PY{n}{n}\PY{p}{)}\PY{p}{:}
+        \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+            \PY{n}{fiblist} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{]}
+            \PY{n}{a} \PY{o}{=} \PY{l+m+mi}{1}
+            \PY{n}{b} \PY{o}{=} \PY{l+m+mi}{1}
+            \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{n}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{:}
+                \PY{n}{c} \PY{o}{=} \PY{n}{a} \PY{o}{+} \PY{n}{b}
+                \PY{n}{a} \PY{o}{=} \PY{n}{b}
+                \PY{n}{b} \PY{o}{=} \PY{n}{c}
+                \PY{n}{fiblist}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{b}\PY{p}{)}
+            \PY{k}{return} \PY{n}{fiblist}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}10}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{fibbo}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}\PY{o}{==}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-5-strings}{%
+\subsubsection{Exercise 5 (Strings)}\label{exercise-5-strings}}
+
+Go through the documentation of string to work through the following
+section https://docs.python.org/3/library/string. Combine the following
+strings and list (as comma seperated list) into a single string.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}11}]:} \PY{n}{str1} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Welcome to Fuse.ai. }\PY{l+s+s2}{\PYZdq{}}
+         \PY{n}{str2} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{This is the First module. }\PY{l+s+s2}{\PYZdq{}}
+         \PY{n}{str3} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{We will cover }\PY{l+s+s2}{\PYZdq{}}
+         \PY{n}{modules\PYZus{}list} \PY{o}{=} \PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Python}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Python Classes}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Numpy}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Pandas}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Matplotlib}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{etc.}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
+         \PY{n}{combinedstr} \PY{o}{=} \PY{k+kc}{None}
+         \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+         \PY{n}{combinedstr} \PY{o}{=} \PY{n}{str1} \PY{o}{+} \PY{n}{str2} \PY{o}{+} \PY{n}{str3} \PY{o}{+} \PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{, }\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{modules\PYZus{}list}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}12}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{combinedstr}\PY{o}{==}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Welcome to Fuse.ai. This is the First module. We will cover Python, Python Classes, Numpy, Pandas, Matplotlib, etc.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-6-set}{%
+\subsubsection{Exercise 6 (Set)}\label{exercise-6-set}}
+
+find the common elements of a and b and not in c
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{n}{a} \PY{o}{=} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,}\PY{l+m+mi}{27}\PY{p}{)}
+         \PY{n}{b} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{,}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{8}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{9}\PY{p}{,}\PY{l+m+mi}{12}\PY{p}{,}\PY{l+m+mi}{79}\PY{p}{,}\PY{l+m+mi}{35}\PY{p}{,}\PY{l+m+mi}{13}\PY{p}{,}\PY{l+m+mi}{24}\PY{p}{]}
+         \PY{n}{c} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{7}\PY{p}{,}\PY{l+m+mi}{12}\PY{p}{,}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+m+mi}{45}\PY{p}{)}
+         
+         \PY{k}{def} \PY{n+nf}{common}\PY{p}{(}\PY{n}{a}\PY{p}{,}\PY{n}{b}\PY{p}{,}\PY{n}{c}\PY{p}{)}\PY{p}{:}
+         \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+             \PY{k}{return} \PY{n+nb}{set}\PY{p}{(}\PY{n}{a}\PY{p}{)} \PY{o}{\PYZam{}} \PY{n+nb}{set}\PY{p}{(}\PY{n}{b}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{n+nb}{set}\PY{p}{(}\PY{n}{c}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{common}\PY{p}{(}\PY{n}{a}\PY{p}{,}\PY{n}{b}\PY{p}{,}\PY{n}{c}\PY{p}{)}\PY{o}{==}\PY{p}{\PYZob{}}\PY{l+m+mi}{13}\PY{p}{,}\PY{l+m+mi}{24}\PY{p}{\PYZcb{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-7-dictionaries}{%
+\subsubsection{Exercise 7
+(Dictionaries)}\label{exercise-7-dictionaries}}
+
+Ram went to buy some vegetables in Vegetable market. Write a function to
+find his total cost given rams shopping list and price dictionary (price
+are in Rupees)
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{price} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tomato Big}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{50}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tomato Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Potato Red}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{70}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Onion Dry}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{45}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Carrot}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{120}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cabbage}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{40}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cauli Local}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Raddish White}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{40}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Brinjal Long}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{40}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Brinjal Round}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{50}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cow pea}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{French Bean}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Soyabean Green}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{80}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bitter Gourd}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bottle Gourd}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{40}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Pointed Gourd}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{50}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Smooth Gourd}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Pumpkin}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{40}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Squash}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Okara}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Barela}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Arum}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Christophine}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{20}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Brd Leaf Mustard}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Spinach Leaf}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cress Leaf}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Mustard Leaf}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Fenugreek Leaf}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Onion Green}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{110}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Mushroom}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{180}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Neuro}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{80}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sugarbeet}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lettuce}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Celery}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{180}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Parseley}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{180}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Fennel Leaf}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Mint}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{180}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Turnip A}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tamarind}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{150}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Bamboo Shoot}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{80}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tofu}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Gundruk}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{220}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Apple}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{120}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Banana}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{80}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lime}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{250}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Pomegranate}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{200}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Orange}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{130}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Water Melon}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sweet Orange}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{120}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Pineapple}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{120}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cucumber}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{70}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Papaya}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{80}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Guava}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{60}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Mombin}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{50}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Ginger}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{130}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Chilli Dry}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{250}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Chilli Green}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Capsicum}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{90}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Garlic Green}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{290}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Coriander Green}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Garlic Dry Chinese}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{150}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Garlic Dry Nepali}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{130}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Fish Fresh}\PY{l+s+s2}{\PYZdq{}}\PY{p}{:}\PY{l+m+mi}{270}\PY{p}{\PYZcb{}}
+         
+         \PY{k}{def} \PY{n+nf}{totalcost}\PY{p}{(}\PY{n}{rams\PYZus{}list}\PY{p}{)}\PY{p}{:}
+         \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+             \PY{n}{total} \PY{o}{=} \PY{l+m+mi}{0}
+             \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{rams\PYZus{}list}\PY{p}{:}
+                 \PY{n}{total}\PY{o}{+}\PY{o}{=}\PY{n}{price}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+             \PY{k}{return} \PY{n}{total}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{totalcost}\PY{p}{(}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tomato Big}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Tomato Small}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{==}\PY{l+m+mi}{140}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-8-date-time}{%
+\subsubsection{Exercise 8 (Date Time)}\label{exercise-8-date-time}}
+
+Python supports datetime module which supplies functons and classes for
+manipulating dates and times in both simple and complex ways.
+https://docs.python.org/3/library/datetime.html
+
+Import datetime
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}17}]:} \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+         \PY{k+kn}{import} \PY{n+nn}{datetime}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-9}{%
+\subsubsection{Exercise 9}\label{exercise-9}}
+
+Since we all love holidays. Write a function to test if the day of the
+week is saturday or sunday
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{k}{def} \PY{n+nf}{isholiday}\PY{p}{(}\PY{n}{date}\PY{p}{)}\PY{p}{:}
+         \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+             \PY{k}{return} \PY{n}{date}\PY{o}{.}\PY{n}{weekday}\PY{p}{(}\PY{p}{)}\PY{o}{==}\PY{l+m+mi}{6} \PY{o+ow}{or} \PY{n}{date}\PY{o}{.}\PY{n}{weekday}\PY{p}{(}\PY{p}{)}\PY{o}{==}\PY{l+m+mi}{5}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}19}]:} \PY{k}{assert}\PY{p}{(}\PY{n}{isholiday}\PY{p}{(}\PY{n}{datetime}\PY{o}{.}\PY{n}{datetime}\PY{p}{(}\PY{l+m+mi}{2018}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{21}\PY{p}{)}\PY{p}{)}\PY{o}{==}\PY{k+kc}{True}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{list-comprehension}{%
+\subsubsection{List Comprehension}\label{list-comprehension}}
+
+https://docs.python.org/3/tutorial/datastructures.html\#list-comprehensions
+
+Also go through - https://docs.python.org/3/library/functions.html\#zip
+- https://docs.python.org/3/library/itertools.html,
+
+as these functions are very useful in different situation
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}20}]:} \PY{c+c1}{\PYZsh{} Experiement with List comprehension here}
+\end{Verbatim}
+
+
+    \hypertarget{exercise-10}{%
+\subsubsection{Exercise 10}\label{exercise-10}}
+
+Carryout matrix multiplication using list comprehension. Zip function
+might come handy for this task
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}21}]:} \PY{k}{def} \PY{n+nf}{matmultiply}\PY{p}{(}\PY{n}{A}\PY{p}{,} \PY{n}{B}\PY{p}{)}\PY{p}{:}
+             \PY{c+c1}{\PYZsh{} Write Solution in 1 line}
+         \PY{c+c1}{\PYZsh{} YOUR CODE HERE}
+             \PY{k}{return} \PY{p}{[}\PY{p}{[}\PY{n+nb}{sum}\PY{p}{(}\PY{n}{x}\PY{o}{*}\PY{n}{y} \PY{k}{for} \PY{n}{x}\PY{p}{,}\PY{n}{y} \PY{o+ow}{in} \PY{n+nb}{zip}\PY{p}{(}\PY{n}{row\PYZus{}A}\PY{p}{,}\PY{n}{col\PYZus{}B}\PY{p}{)}\PY{p}{)} \PY{k}{for} \PY{n}{col\PYZus{}B} \PY{o+ow}{in} \PY{n+nb}{zip}\PY{p}{(}\PY{o}{*}\PY{n}{B}\PY{p}{)}\PY{p}{]} \PY{k}{for} \PY{n}{row\PYZus{}A} \PY{o+ow}{in} \PY{n}{A}\PY{p}{]}
+\end{Verbatim}
+
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}

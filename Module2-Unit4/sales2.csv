@@ -1,0 +1,981 @@
+Order ID,Region,Country,Order Priority,Total Revenue,Total Cost
+686800706,Middle East and North Africa,Libya,M,3692591.2,2224085.18
+185941302,North America,Canada,M,464953.08,274426.74
+246222341,Middle East and North Africa,Libya,C,387259.76,241840.14
+161442649,Asia,Japan,C,683335.4,389039.42
+645713555,Sub-Saharan Africa,Chad,H,91853.85,68127.4
+683458888,Europe,Armenia,H,1959909.6,1115824.08
+679414975,Sub-Saharan Africa,Eritrea,H,585010.8,333060.84
+208630645,Europe,Montenegro,M,797634.72,261596.16
+266467225,Central America and the Caribbean,Jamaica,H,374057.68,220778.04
+118598544,Australia and Oceania,Fiji,H,739488,436464
+451010930,Sub-Saharan Africa,Togo,M,329151.36,107950.08
+220003211,Europe,Montenegro,M,411050.52,262503.36
+702186715,Europe,Greece,C,1007751.16,757830.32
+499009597,,,H,4482929.64,3613824.64
+564646470,Sub-Saharan Africa,Benin,L,2733.69,2027.56
+262056386,,,L,,
+211114585,Sub-Saharan Africa,Equatorial Guinea,M,1531645.92,1234705.92
+405785882,Sub-Saharan Africa,Swaziland,H,6456747.15,5204978.4
+280494105,Central America and the Caribbean,Trinidad and Tobago,M,507473.64,299523.42
+689975583,Europe,Sweden,L,2032794.64,1269461.46
+759279143,Europe,Belarus,L,4184675.46,3373392.96
+133766114,Sub-Saharan Africa,Guinea-Bissau,C,2097547.41,1690896.16
+329110324,Asia,Mongolia,M,470371.85,315134.27
+681298100,Middle East and North Africa,Turkey,L,43454.67,37563.07
+596628272,Sub-Saharan Africa,Central African Republic,L,674251.02,430587.36
+901712167,Sub-Saharan Africa,Equatorial Guinea,L,3596632.83,2899354.08
+489148938,Europe,Armenia,C,3753133.44,3244282.24
+876286971,Europe,Greece,L,1097967.61,825673.22
+262749040,Middle East and North Africa,Israel,H,174493.55,120990.45
+726708972,Asia,Bhutan,H,3454857.21,2986446.41
+366653096,Australia and Oceania,Vanuatu,L,1487295.24,877838.22
+951380240,Sub-Saharan Africa,Burundi,M,525344.6,310071.3
+270001733,Europe,Ukraine,M,3658489.6,2203545.44
+681941401,Europe,Croatia,C,22301.5,14941.3
+566935575,Sub-Saharan Africa,Madagascar,L,71747.7,53214.8
+175033080,Asia,Malaysia,M,767935.14,490415.52
+276595246,Asia,Uzbekistan,L,6209287.35,5005493.6
+812295901,Europe,Italy,M,3427318.23,2762864.48
+443121373,Asia,Nepal,C,1281162.96,756173.88
+600370490,Australia and Oceania,Fiji,H,149075.52,103366.08
+535654580,Europe,Portugal,L,617998.29,498187.04
+470897471,Central America and the Caribbean,Panama,H,3445573.2,2075303.73
+248335492,Europe,Belarus,L,324842.7,217634.34
+680517470,Sub-Saharan Africa,Botswana,C,994120.16,326036.48
+400304734,Sub-Saharan Africa,Tanzania,M,647383.33,448883.07
+810871112,Europe,Romania,C,2367799.56,1908754.56
+235702931,Sub-Saharan Africa,Mali,L,1766963,1005974.9
+668599021,Sub-Saharan Africa,Central African Republic,C,1408567.23,1135488.48
+123670709,Sub-Saharan Africa,Niger,M,1471944.48,919215.72
+285341823,Europe,Austria,L,5106137.61,4116211.36
+658348691,Asia,India,H,82682.46,61325.04
+817740142,Europe,Luxembourg,L,1617198.8,1009925.7
+858877503,Sub-Saharan Africa,Cape Verde,H,464725.3,311351.26
+947434604,Europe,Sweden,M,894780.48,528121.44
+869397771,Europe,Iceland,H,1255122.75,1084952.75
+481065833,Middle East and North Africa,Qatar,L,565980.25,392439.75
+159050118,Sub-Saharan Africa,South Sudan,C,2244032.91,1939786.11
+350274455,Europe,United Kingdom,M,1855948.5,1496136
+221975171,Middle East and North Africa,Tunisia ,L,1283773.7,730883.51
+811701095,North America,United States of America,C,6021738.87,4854305.12
+977313554,Sub-Saharan Africa,Liberia,L,1574222.1,896242.83
+546986377,Sub-Saharan Africa,Eritrea,L,652889.82,416945.76
+769205892,Asia,South Korea,L,37058.76,27486.24
+262770926,Sub-Saharan Africa,Kenya,M,941010.08,308618.24
+866792809,Sub-Saharan Africa,Rwanda,M,321791.22,205500.96
+890695369,Central America and the Caribbean,Cuba,C,256609.6,171920.32
+964214932,Middle East and North Africa,Libya,M,304436,173322.8
+887400329,Europe,Czech Republic,C,50656.56,32350.08
+980612885,Europe,Montenegro,M,189752.55,127128.21
+734526431,Europe,Montenegro,M,169274.72,55516.16
+160127294,Asia,Philippines,L,1041287.12,650274.18
+238714301,Central America and the Caribbean,El Salvador,L,1062310.88,348400.64
+671898782,Australia and Oceania,Tonga,M,5770511.45,4339432.9
+331604564,Sub-Saharan Africa,Democratic Republic of the Congo,H,654984.22,454153.38
+410067975,Middle East and North Africa,Afghanistan,M,1456561.7,829255.91
+369837844,Australia and Oceania,Tuvalu,L,319044.78,203747.04
+193775498,Sub-Saharan Africa,Sudan,L,12418.23,9210.52
+835054767,Sub-Saharan Africa,Niger,M,12785.76,4193.28
+167161977,Sub-Saharan Africa,Gabon,C,3874629.46,2913726.92
+633895957,Australia and Oceania,East Timor,C,424435.3,250512.15
+699368035,North America,United States of America,C,808453.44,265144.32
+698002040,Middle East and North Africa,Jordan,L,488370.2,288248.1
+584534299,Europe,Cyprus,H,845903.52,540207.36
+384013640,Sub-Saharan Africa,Malawi,L,1082271.5,638783.25
+641801393,Europe,Iceland,M,175637.77,121783.83
+173571383,Middle East and North Africa,Israel,M,203017.32,140768.28
+115309941,Middle East and North Africa,United Arab Emirates,H,248552.82,158729.76
+773315894,Asia,China,L,93123.6,56089.29
+274200570,Sub-Saharan Africa,Kenya,M,42562.65,28515.63
+414887797,Middle East and North Africa,Somalia,M,368710.72,120924.16
+812613904,Australia and Oceania,Tonga,L,444464.15,297776.93
+254927718,Asia,Bangladesh,H,1948296.96,1216693.44
+749690568,Middle East and North Africa,Egypt,M,424867.3,284647.66
+775076282,Sub-Saharan Africa,Eritrea,C,236555,134676.5
+229571187,Sub-Saharan Africa,Swaziland,H,2651075.91,2137112.16
+881974112,Asia,Vietnam,C,1172756.32,732375.48
+521396386,Australia and Oceania,Marshall Islands,L,249010.56,159022.08
+607261836,Asia,Taiwan,C,753140.29,566362.58
+419306790,Europe,Ireland,M,162071.12,95658.36
+207580077,Sub-Saharan Africa,Rwanda,H,2705580.57,2338756.97
+742443025,Europe,Sweden,M,647702.1,413632.8
+164569461,Sub-Saharan Africa,Gabon,M,1314476.7,839445.6
+734945714,Sub-Saharan Africa,South Africa,L,1435694.72,896578.08
+284870612,Europe,United Kingdom,C,917842.72,301020.16
+765955483,Europe,Albania,M,19630.32,14559.68
+600124156,Asia,Malaysia,H,1362386.82,870041.76
+529612958,Sub-Saharan Africa,Ghana,L,2070300.46,1556868.92
+466970717,Central America and the Caribbean,Cuba,H,641145.76,210273.28
+845058763,Central America and the Caribbean,Saint Lucia,C,228218.4,137458.26
+367050921,Europe,Romania,L,1125887.82,719009.76
+956433522,Europe,Portugal,L,5722833.48,4613348.48
+107005393,Europe,Macedonia,C,195921.05,131260.91
+332877862,Asia,China,C,228281.95,152941.69
+618474757,Europe,Germany,L,2368743.12,1479258.18
+468532407,Europe,Ireland,M,5350169.62,4023335.24
+358099639,Europe,Poland,M,5532680.16,4460060.16
+382537782,Sub-Saharan Africa,Namibia,H,190456.95,143223.9
+707520663,Asia,Uzbekistan,H,812559.66,563413.14
+219034612,Sub-Saharan Africa,Zimbabwe,M,2558340.96,2211480.16
+573378455,Asia,Mongolia,M,1806111.09,1561237.89
+347163522,Europe,Norway,H,184382.88,127847.52
+887313640,Middle East and North Africa,Oman,M,713921.82,455921.76
+461065137,Europe,Serbia,H,3617830,2179055.75
+105966842,Sub-Saharan Africa,Democratic Republic of the Congo,H,63425.34,47042.16
+479880082,Europe,Bulgaria,M,1540614.8,962099.7
+510978686,Asia,Brunei,H,2247229.84,1403374.26
+547748982,Europe,Serbia,C,1518323.58,969625.44
+108989799,Sub-Saharan Africa,Ghana,M,279340.6,159035.38
+133812463,Sub-Saharan Africa,Malawi,M,1426735.2,812274.96
+731640803,Sub-Saharan Africa,Zimbabwe,L,71159.91,52778.84
+732211148,Europe,Cyprus,C,977274.9,624103.2
+835572326,Central America and the Caribbean,Nicaragua,M,673461.8,383418.14
+462085664,Europe,Estonia,C,69180.88,43202.82
+902424991,Europe,Estonia,C,706276.64,231633.92
+367576634,Europe,Lithuania,H,27514.17,20407.08
+738839423,Sub-Saharan Africa,Republic of the Congo,H,3315633.51,2866098.71
+817824685,Europe,Czech Republic,C,345393.84,215695.26
+376456248,Sub-Saharan Africa,Cameroon,C,95209.92,60802.56
+606970441,Asia,Vietnam,H,3188975.37,2570729.12
+971916091,Europe,Moldova ,L,178881.36,154628.56
+554154527,Middle East and North Africa,Bahrain,L,3577747.74,2884130.24
+306859576,Europe,Hungary,L,3624028.21,2725274.42
+803517568,Australia and Oceania,Marshall Islands,L,617797.07,428368.53
+887927329,Middle East and North Africa,Iraq,C,4091552.43,3298323.68
+824200189,Europe,Albania,H,1233404.36,727985.58
+946759974,Sub-Saharan Africa,Lesotho,H,4017965.7,3239003.2
+310343015,Middle East and North Africa,Lebanon,H,682890.72,223964.16
+739998137,Europe,Hungary,C,115236.88,68015.64
+981086671,Asia,Japan,H,199432.35,133613.37
+749282443,Europe,Georgia,L,5326897.8,4294172.8
+280571782,Europe,Estonia,C,4089598.8,3296748.8
+781253516,Europe,Luxembourg,C,6101973.37,4588692.74
+377938973,Sub-Saharan Africa,Swaziland,H,767935.08,532471.32
+867551982,Europe,Romania,C,739279.2,242457.6
+967328870,Sub-Saharan Africa,Ethiopia,C,242247.72,167969.88
+364818465,Sub-Saharan Africa,Chad,C,4393062.66,3541380.16
+167882096,Middle East and North Africa,Morocco,C,5794466.58,4671094.08
+654693591,North America,Mexico,H,790859.36,259374.08
+823739278,Sub-Saharan Africa,Nigeria,H,131748.76,91352.04
+643817985,Central America and the Caribbean,Trinidad and Tobago,L,422494.8,283058.16
+604041039,Europe,Moldova ,H,655638.06,454606.74
+363832271,Australia and Oceania,Solomon Islands,H,401212.57,278193.03
+102928006,Asia,India,L,616162.47,427235.13
+971377074,Sub-Saharan Africa,Burkina Faso,M,597159.57,481388.32
+139540803,Australia and Oceania,Kiribati,L,877109.31,758190.51
+248093020,Middle East and North Africa,Israel,M,2148685.77,1857366.17
+858020055,Sub-Saharan Africa,Comoros,L,924024.48,590096.64
+700620734,Middle East and North Africa,Iran,H,2067512.72,1291142.58
+827506387,Asia,Vietnam,L,2791084.8,1681098.72
+560600841,Central America and the Caribbean,Belize,M,2072305.27,1558376.54
+642140424,Europe,Belarus,H,202363.48,140314.92
+984673964,North America,United States of America,C,1471178.64,918737.46
+221062791,Europe,Poland,L,296420.15,198592.13
+654480731,North America,Canada,L,654292.82,386179.71
+608414113,Middle East and North Africa,Israel,C,100166.95,67108.69
+276661765,Middle East and North Africa,Lebanon,L,6160781.13,4632916.26
+373335015,Europe,Andorra,L,1782364.96,1113070.44
+782857692,Europe,Slovakia,L,419963.04,137733.12
+109966123,Sub-Saharan Africa,Liberia,H,2556.42,1896.08
+629709136,Central America and the Caribbean,Antigua and Barbuda ,M,777957.4,442910.02
+637448060,Asia,China,L,318828.73,221069.67
+298856723,Sub-Saharan Africa,Niger,H,1838016,1147824
+299921452,Europe,United Kingdom,L,1522319.06,1144786.12
+496941077,Asia,Bangladesh,M,389279.99,269919.21
+366526925,Asia,Myanmar,L,353527.86,225768.48
+355602824,Australia and Oceania,Tonga,M,4064066.37,3513058.77
+531405103,Sub-Saharan Africa,Guinea-Bissau,C,529042.04,312253.62
+131482589,Australia and Oceania,Nauru,M,1151598.5,679701.75
+713696610,Sub-Saharan Africa,Swaziland,L,1551389.4,883243.62
+306220996,Europe,Finland,C,993995.12,586680.36
+157542073,Australia and Oceania,Papua New Guinea,L,6051184.85,4550499.7
+686458671,Sub-Saharan Africa,Mauritius ,L,590907.9,409724.1
+132082116,Sub-Saharan Africa,Mozambique,M,3183114.48,2566004.48
+403836238,Europe,Bulgaria,L,324780.16,106516.48
+331457364,Europe,Spain,C,2977142.85,2238815.7
+614994323,Australia and Oceania,Vanuatu,H,3940874.49,3406569.29
+674808442,Europe,Belgium,L,90211.77,66909.48
+901573550,Europe,Belgium,L,1149525.84,717868.26
+406275975,Sub-Saharan Africa,Guinea-Bissau,L,540280.32,177192.96
+170214545,Sub-Saharan Africa,Togo,C,1405181.26,829372.53
+795000588,Sub-Saharan Africa,Cote d'Ivoire,C,588129.08,407797.32
+252557933,Sub-Saharan Africa,Republic of the Congo,C,59338.8,44011.2
+635122907,Middle East and North Africa,Libya,M,1490069.36,930534.54
+505244338,Australia and Oceania,East Timor,C,289940.92,171130.26
+745783555,Europe,Switzerland,H,304016.96,99706.88
+509914386,Australia and Oceania,Palau,M,587890.74,375436.32
+371123158,Middle East and North Africa,Jordan,M,1633920.15,1228710.3
+973208701,Europe,Slovenia,H,1962040.72,1475457.44
+780282342,Asia,South Korea,L,443931.92,277231.38
+126767909,Europe,Norway,H,250906.88,82288.64
+767401731,Middle East and North Africa,Afghanistan,M,20422.4,12753.6
+927232635,Asia,Bangladesh,L,620902.81,430521.99
+251621949,Sub-Saharan Africa,Guinea,M,3957750.09,3421156.89
+256243503,Central America and the Caribbean,Cuba,H,4559772.42,3675769.92
+277083623,Europe,Russia,C,1773283.2,1068066.48
+620441138,Sub-Saharan Africa,Seychelles ,L,181020.5,106842.75
+312927377,Asia,South Korea,M,664234.2,535459.2
+251466166,Sub-Saharan Africa,Ghana,L,837828.96,523216.44
+953293836,Central America and the Caribbean,Costa Rica,H,6306968.85,5084237.6
+305959212,Europe,Romania,C,1848214.5,1052233.35
+317323625,Europe,Czech Republic,L,404611.9,230355.37
+365560901,Europe,Liechtenstein,L,4309673.23,3240880.46
+349157369,Sub-Saharan Africa,Seychelles ,M,581783.12,363318.18
+236911857,Middle East and North Africa,Somalia,L,1617964.64,1010403.96
+517935693,Australia and Oceania,Solomon Islands,H,615917.28,427065.12
+851652705,Sub-Saharan Africa,Uganda,C,198452.48,65085.44
+517799222,Sub-Saharan Africa,Equatorial Guinea,M,1470960.7,837453.61
+666424071,Central America and the Caribbean,Costa Rica,C,5565891.87,4486833.12
+267888581,Europe,Moldova ,C,28353.87,21029.88
+162866580,Sub-Saharan Africa,Burkina Faso,L,723311.7,426916.35
+812344396,Central America and the Caribbean,Guatemala,H,456184.3,305629.06
+947620856,Sub-Saharan Africa,Swaziland,M,389826.36,336973.56
+720307290,Asia,Maldives,H,583733.34,344533.77
+352327525,Asia,Thailand,H,266639.73,200513.46
+585917890,Sub-Saharan Africa,Sudan,C,3327316.33,2502146.66
+433627212,Central America and the Caribbean,Costa Rica,L,3705459.87,3203072.27
+328316819,Europe,Denmark,C,241900.1,162065.42
+773160541,Sub-Saharan Africa,Angola,C,872168,496546.4
+991644704,Australia and Oceania,Papua New Guinea,M,5719722.93,4301239.86
+277568137,Asia,North Korea,M,3136752.15,2711470.15
+245042169,Central America and the Caribbean,El Salvador,C,21253.74,15763.76
+778490626,Sub-Saharan Africa,Burkina Faso,M,1023121.37,769388.74
+482649838,Middle East and North Africa,Yemen,C,1446927.04,903592.56
+732568633,Sub-Saharan Africa,Republic of the Congo,L,104057.85,69715.47
+723608338,Europe,Andorra,M,429029.34,322630.68
+621442782,Central America and the Caribbean,Dominican Republic,H,5068159.68,3811263.36
+212058293,Middle East and North Africa,Israel,M,412532.48,257622.72
+251753699,Australia and Oceania,Solomon Islands,L,1276942.02,815475.36
+217140328,Sub-Saharan Africa,Liberia,M,51342.99,38080.76
+555142009,Sub-Saharan Africa,Mali,C,1188110.72,701252.16
+432995069,Asia,Uzbekistan,C,187743.04,61573.12
+888248336,Middle East and North Africa,Tunisia ,H,104287.48,72310.92
+778763139,Europe,Vatican City,C,334772.38,197590.89
+832713305,Sub-Saharan Africa,Djibouti,H,1102695.66,704198.88
+498585164,Europe,Ukraine,M,858726.95,645763.9
+195177543,Australia and Oceania,East Timor,M,58097.91,43090.84
+861601769,Sub-Saharan Africa,Uganda,C,1227000.5,698561.15
+807281672,Sub-Saharan Africa,Guinea,H,607943.49,525518.29
+661953580,Sub-Saharan Africa,Equatorial Guinea,H,615137.12,201743.36
+225666320,Europe,Malta,M,3731064.8,2247258.22
+718781220,Europe,Cyprus,L,1464179.57,1101065.14
+731972110,Europe,Czech Republic,L,3691058.28,2975473.28
+276225316,Middle East and North Africa,Libya,C,9859.84,5819.52
+332839667,Asia,Vietnam,C,2285095.89,1842084.64
+603426492,Middle East and North Africa,Jordan,C,949471.78,560401.59
+859909617,Sub-Saharan Africa,Mali,H,247689,165943.8
+494525372,Europe,Czech Republic,L,6617209.54,4976151.08
+769822585,Europe,Slovakia,M,995997.9,587862.45
+768662583,Sub-Saharan Africa,Zimbabwe,C,492221.7,290521.35
+544219195,Central America and the Caribbean,Honduras,M,1112631.3,633447.99
+669978749,Europe,Switzerland,L,21589.75,14464.45
+889740073,Sub-Saharan Africa,South Africa,L,1186998,714940.95
+567614495,Sub-Saharan Africa,Uganda,M,407975.1,273330.42
+938025844,Middle East and North Africa,Iran,M,238330.82,140668.71
+155710446,Middle East and North Africa,Algeria,C,1083966.16,639783.48
+945717132,Sub-Saharan Africa,Central African Republic,L,1932469.6,1206809.4
+253407227,Central America and the Caribbean,The Bahamas,C,3359882,2023691.05
+494454562,Sub-Saharan Africa,South Africa,H,5979679.96,4496727.92
+104845464,Sub-Saharan Africa,Benin,M,1019654.9,580514.27
+290878760,Europe,Hungary,M,2773596.8,1670565.52
+979165780,Europe,Austria,C,3756179.28,3027969.28
+366630351,Asia,Tajikistan,C,1903486.83,1534458.08
+770508801,Europe,Portugal,C,6207333.72,5003918.72
+978349959,Europe,Belgium,M,206360.05,138254.71
+298015153,Europe,Slovenia,L,387239.45,259438.19
+807678210,Europe,Czech Republic,M,1340567.88,856107.84
+605825459,Australia and Oceania,Marshall Islands,C,496182.83,344043.57
+561255729,Sub-Saharan Africa,Sudan,C,64349.01,47727.24
+263080346,Central America and the Caribbean,Dominican Republic,H,19124,6272
+270723140,Sub-Saharan Africa,Tanzania,C,380133.6,216419.28
+763920438,Europe,Switzerland,H,1080560.64,354385.92
+192721068,North America,Greenland,L,6216247.54,4674627.08
+227486360,Australia and Oceania,Tonga,L,66466.92,49298.08
+808890140,Middle East and North Africa,Saudi Arabia,M,1143433.32,674882.46
+597918736,Central America and the Caribbean,Belize,C,2752611.2,1657925.68
+125870978,Sub-Saharan Africa,Angola,H,3005312.8,1810130.42
+444358193,Asia,Malaysia,H,2886258.13,2170470.26
+875304210,Sub-Saharan Africa,Ethiopia,C,39003.9,26131.38
+360945355,North America,Greenland,C,154954.96,96767.94
+613830459,Sub-Saharan Africa,Benin,C,1013689.6,577118.08
+266820847,Middle East and North Africa,Yemen,H,1454916.1,828319.03
+723090350,Sub-Saharan Africa,Rwanda,M,1878350.24,1173012.36
+306125295,Sub-Saharan Africa,Mauritania,M,3430809.48,2965659.08
+109724509,Australia and Oceania,New Zealand,L,717180.75,497279.25
+847999322,Australia and Oceania,Samoa ,M,76386.72,25052.16
+605373561,Australia and Oceania,Fiji,H,256152.32,84008.96
+686583554,Sub-Saharan Africa,Malawi,H,198625.7,133072.94
+666678130,Australia and Oceania,Marshall Islands,M,176941.05,118544.91
+641018617,Central America and the Caribbean,Grenada,M,129682.24,80985.36
+775278842,Europe,Luxembourg,C,461125.77,398606.17
+855445134,Sub-Saharan Africa,Zimbabwe,M,1721311.2,1487935.2
+737816321,Asia,China,H,785706,463743
+799003732,North America,United States of America,L,86121.75,57698.85
+585931193,Sub-Saharan Africa,Central African Republic,L,1373598.96,810731.88
+165835034,Central America and the Caribbean,Antigua and Barbuda ,M,481745.62,284338.11
+576264083,Central America and the Caribbean,Guatemala,H,2094061.84,1307722.26
+675079667,Middle East and North Africa,Qatar,L,1085150.4,355891.2
+290455615,Middle East and North Africa,Israel,L,92027.98,63810.42
+670878255,Asia,Thailand,L,1012978.62,646904.16
+435146415,Asia,Singapore,M,1717389.3,977751.39
+522371423,Asia,North Korea,C,25480.86,16272.48
+141977107,Europe,Austria,L,1977073.56,1593778.56
+823699796,Asia,Japan,L,2534675.12,1582881.18
+567588317,Sub-Saharan Africa,Zimbabwe,L,40379.95,27053.29
+594003999,Europe,Lithuania,H,73128.54,54238.96
+393620669,Europe,Luxembourg,H,2542078.24,1587504.36
+877424657,Sub-Saharan Africa,Central African Republic,H,3632694.8,2188008.97
+326714789,Europe,Norway,M,682303.67,513093.34
+243102395,Sub-Saharan Africa,Democratic Republic of the Congo,M,77028.48,57131.52
+398511302,Australia and Oceania,New Zealand,L,4814885.35,3620800.7
+185177838,Europe,Ukraine,M,579629.16,401903.64
+865650832,Asia,Taiwan,H,341059.29,236483.91
+622791612,Europe,Italy,C,1384978.1,788501.63
+409774005,Europe,Finland,L,7273.97,5043.63
+800084340,Sub-Saharan Africa,Sudan,H,1036075.11,835211.36
+637521445,Europe,Croatia,M,857194.44,547417.92
+186196649,Sub-Saharan Africa,Mauritania,L,407168.45,272789.99
+680533778,Australia and Oceania,New Zealand,L,1001463.44,625404.66
+275269162,Middle East and North Africa,Pakistan,L,337701.65,226249.43
+795451629,Europe,Poland,C,446404.36,335696.72
+986442506,Europe,Lithuania,M,1874544.1,1067223.43
+563915622,Middle East and North Africa,Pakistan,M,826708.3,470665.09
+663857305,Australia and Oceania,East Timor,C,3927804.8,2365756.72
+692566382,Australia and Oceania,Marshall Islands,L,43272.54,32094.96
+576654183,Central America and the Caribbean,Cuba,L,2433839.34,1830250.68
+313044536,North America,Greenland,H,1452287.92,906940.38
+418973767,Europe,Luxembourg,C,204570.19,141845.01
+581990706,Middle East and North Africa,Israel,C,134663.1,90220.02
+109956681,Sub-Saharan Africa,Djibouti,H,1909494.4,1192461.6
+181045520,Europe,Bulgaria,L,873607.9,497366.17
+693743550,Asia,Mongolia,C,460331.28,271698.84
+716849601,Central America and the Caribbean,Dominican Republic,L,63600.96,20858.88
+739474999,Middle East and North Africa,Yemen,L,2596968,1564180.2
+421043574,Australia and Oceania,Federated States of Micronesia,M,409058.65,283633.35
+841291654,Europe,Finland,M,470029.23,325909.17
+450268065,Central America and the Caribbean,The Bahamas,L,654331.7,372526.91
+918334138,Central America and the Caribbean,Grenada,L,1828471.26,1580566.46
+386163699,Sub-Saharan Africa,Sao Tome and Principe,M,1381689.75,1194359.75
+214743077,Central America and the Caribbean,El Salvador,C,498798.19,345857.01
+935371100,Europe,Sweden,M,1518660.72,948389.58
+899659097,Asia,Turkmenistan,H,3486232.8,2099793.42
+329530894,Europe,Monaco,H,673088.14,397273.17
+867222821,Middle East and North Africa,Turkey,H,3948468.51,3413133.71
+625283706,Sub-Saharan Africa,Mozambique,M,199242.55,133486.21
+936574876,Middle East and North Africa,Yemen,C,1415079.33,1140738.08
+504270160,Asia,Philippines,M,740725.7,421713.11
+351855885,Sub-Saharan Africa,Democratic Republic of the Congo,M,67835.9,47036.1
+673130881,Australia and Oceania,Fiji,H,494511.78,315803.04
+382206475,Europe,Macedonia,H,1461315.24,1178010.24
+263506495,Middle East and North Africa,Tunisia ,H,1292413.1,735802.13
+721767270,Europe,Liechtenstein,L,1199025.3,682634.19
+432037627,Middle East and North Africa,Qatar,M,3668108,2209338.7
+389678895,Australia and Oceania,Tonga,C,1476193.11,1276050.31
+760364902,Europe,Belgium,L,3259522.14,2817594.94
+430081975,Sub-Saharan Africa,Chad,C,90211.77,66909.48
+155128943,Asia,Thailand,H,1265422.96,790244.94
+312117135,Europe,Iceland,H,136709.28,44835.84
+447970378,Central America and the Caribbean,Saint Lucia,L,1369033.05,1183419.05
+629925000,Asia,Japan,C,3349389.2,2017371.13
+995529830,Asia,India,L,674599.42,467754.18
+402646195,Australia and Oceania,Vanuatu,L,528782.52,426267.52
+479447925,Sub-Saharan Africa,Chad,M,3438403.5,2972223.5
+674421346,Sub-Saharan Africa,Malawi,H,2237589.6,1347722.94
+506365287,Europe,Finland,L,1572171.2,946934.68
+914391076,Middle East and North Africa,Turkey,C,818944.32,268584.96
+207922542,Sub-Saharan Africa,South Africa,L,3271756.95,2828170.95
+816696012,Europe,Lithuania,M,4788347.13,3860030.88
+740760314,Europe,Russia,L,298602.85,200054.47
+300476777,Central America and the Caribbean,The Bahamas,C,1687400.8,1053766.2
+786519229,Central America and the Caribbean,The Bahamas,L,1124972.34,718425.12
+409873998,Middle East and North Africa,Turkey,C,4231658.8,2548771.07
+151839911,Sub-Saharan Africa,Mauritius ,H,725314.8,436864.47
+614028298,Europe,Bulgaria,H,535050.38,315799.89
+668362987,Middle East and North Africa,Iran,L,1547045.05,1163380.1
+607080304,Sub-Saharan Africa,Ghana,M,4950544.16,3722816.32
+792729079,Sub-Saharan Africa,Malawi,M,1277931.68,798056.52
+308170640,Sub-Saharan Africa,Zimbabwe,M,866675.6,541230.9
+106578814,Asia,Tajikistan,H,1216149.64,717801.42
+761439931,Europe,Czech Republic,H,1203550.7,685210.61
+216552817,Sub-Saharan Africa,Mauritius ,L,1099972.42,827180.84
+536028802,Sub-Saharan Africa,Lesotho,H,15758.37,11687.88
+254291713,Sub-Saharan Africa,Mali,L,447168.8,299588.96
+226077878,Europe,Georgia,C,26398.79,18304.41
+476436126,Europe,Albania,M,4488139.32,3618024.32
+650727784,Europe,Cyprus,L,1603212.4,965631.11
+464626681,Central America and the Caribbean,Saint Kitts and Nevis ,C,1480218.05,1113126.1
+154119145,Middle East and North Africa,Tunisia ,C,2588295.15,2237373.15
+925504004,Central America and the Caribbean,Cuba,M,2555387.73,2208927.33
+905392587,Australia and Oceania,Kiribati,L,954653.7,543507.51
+990708720,Asia,Cambodia,C,241228.98,154052.64
+798688733,Europe,Moldova ,M,2195408,1371012
+916881453,Asia,Uzbekistan,C,915776.4,521373.72
+653148210,Asia,India,L,4338772.8,2613286.92
+285662829,Europe,Germany,C,231622.82,160602.78
+612911641,Europe,Austria,C,466801.8,275517.9
+703693473,Europe,Germany,L,4813093.11,3879979.36
+147119653,Asia,Bhutan,M,527713.12,173071.36
+402614009,Asia,Kyrgyzstan,C,12007.71,8906.04
+749912869,Middle East and North Africa,Somalia,C,387236.74,268502.46
+539065062,Central America and the Caribbean,Saint Lucia,H,124298.22,93472.44
+540431916,Europe,Armenia,H,712243.44,454849.92
+694687259,North America,Canada,C,106857.4,71591.08
+562817418,Sub-Saharan Africa,Burundi,H,3950539.2,2379449.88
+676121222,Europe,Liechtenstein,L,1676249.3,954329.39
+286210000,Middle East and North Africa,Tunisia ,L,725365.32,463229.76
+515007579,Middle East and North Africa,Iraq,L,49442.9,33125.18
+304750287,Asia,Indonesia,C,540816.4,325739.21
+467986953,Asia,Kazakhstan,H,312885.3,209623.26
+537578904,Europe,Denmark,C,18932.55,12684.21
+116699969,Europe,Luxembourg,L,457404.14,269971.17
+228836476,Sub-Saharan Africa,Cape Verde,C,1015114.74,648268.32
+167787253,Australia and Oceania,Palau,C,128177.92,75653.76
+647663629,Australia and Oceania,Australia,M,1065324.9,628780.95
+652889430,Central America and the Caribbean,Nicaragua,L,1411643.94,1220252.74
+588200986,Asia,Laos,M,389423.58,313926.08
+928647124,Central America and the Caribbean,Cuba,L,504764.48,349993.92
+869589173,Europe,Moldova ,L,4203678,2531917.95
+576700961,Middle East and North Africa,Syria,C,5002000.95,3761511.9
+735968816,Central America and the Caribbean,The Bahamas,M,1724177.4,981616.02
+303691565,Europe,Belarus,M,1211180.04,773478.72
+556480538,Middle East and North Africa,United Arab Emirates,C,416575.36,136622.08
+141259562,Sub-Saharan Africa,Angola,H,33120.1,22189.42
+925264966,Central America and the Caribbean,Cuba,C,2325904,1400915.6
+346045577,Europe,Ukraine,H,931881.51,751217.76
+861462724,Sub-Saharan Africa,Mozambique,H,44951.94,33340.56
+499690234,Europe,Armenia,M,678277.27,470304.33
+509214437,North America,Greenland,H,734580.16,240916.48
+408834159,Central America and the Caribbean,Saint Kitts and Nevis ,M,1281581.28,1033121.28
+237660729,Europe,Vatican City,M,377037.7,252603.34
+105117976,Europe,Ukraine,C,611968,200704
+640942227,Sub-Saharan Africa,Niger,L,1625647.1,925520.33
+745182311,Asia,Myanmar,L,2124792,1279783.8
+738199555,Sub-Saharan Africa,Guinea,C,2171922.24,1356345.36
+110667788,Sub-Saharan Africa,Guinea-Bissau,L,1207365.54,771042.72
+673573338,Sub-Saharan Africa,South Sudan,C,2718150.54,2191183.04
+708215034,Middle East and North Africa,Turkey,H,827136.18,528222.24
+816204202,Australia and Oceania,Palau,M,1213578.32,912612.64
+769464671,Europe,Poland,L,26097.5,17484.5
+860232770,Asia,Malaysia,L,40237.6,26957.92
+551057326,North America,United States of America,C,732545.99,507933.21
+724799668,Europe,Switzerland,C,1391607.6,838179.39
+534633624,Australia and Oceania,Papua New Guinea,H,3858290,2323887.25
+554045522,Sub-Saharan Africa,Namibia,H,153595.65,102904.23
+526834189,Europe,Ireland,C,87314.72,28636.16
+717110955,Sub-Saharan Africa,Mozambique,C,5294034.94,3981121.88
+559299647,Sub-Saharan Africa,Democratic Republic of the Congo,L,2054748.72,1283171.58
+908136594,North America,United States of America,M,2807256.06,2426647.26
+888670623,Middle East and North Africa,Azerbaijan,M,4063550.4,3275750.4
+146263062,Europe,Belgium,C,875877.45,706071.2
+196587741,Asia,Taiwan,L,2302678.56,1856258.56
+375630986,Central America and the Caribbean,Panama,M,1636600.08,1022041.62
+989691627,Europe,Andorra,H,28470,19074
+165380990,Europe,Georgia,H,5857386.55,4404763.1
+599622905,Central America and the Caribbean,Barbados,C,91090.26,58171.68
+109653699,Europe,Sweden,C,639210.33,443216.07
+183022201,Middle East and North Africa,Algeria,M,3877590.99,3351865.79
+127589738,Europe,Italy,L,449024.62,311344.98
+221530139,Europe,Russia,L,42414.18,31458.32
+363329732,Central America and the Caribbean,Antigua and Barbuda ,M,4035548.37,3253177.12
+521787345,Middle East and North Africa,Jordan,C,68342.25,50689
+286014306,Sub-Saharan Africa,Mali,L,2887415.16,2495938.36
+215434443,Middle East and North Africa,Somalia,C,142755.8,81274.34
+489784085,Middle East and North Africa,Kuwait,L,1045173,667464
+459112060,Sub-Saharan Africa,Liberia,C,205782.36,165887.36
+893779695,Asia,China,C,5293034.88,4266874.88
+834460818,Europe,Andorra,M,1837330.95,1588224.95
+742141759,Sub-Saharan Africa,Niger,C,241662.85,161906.47
+248121345,Europe,Hungary,M,535358.5,315981.75
+404010903,Europe,Monaco,M,509135.52,166978.56
+531734263,Australia and Oceania,Tuvalu,L,561346.8,422133.6
+473527753,Sub-Saharan Africa,South Sudan,C,1592947.2,994780.8
+141940200,Europe,Cyprus,M,434849.8,247570.54
+869832932,Europe,Poland,M,1168804.23,878942.46
+460379779,Sub-Saharan Africa,Liberia,H,833391.96,532217.28
+837067067,Sub-Saharan Africa,Cote d'Ivoire,C,863044.12,509389.86
+393693625,Asia,Kyrgyzstan,C,73405.15,49179.13
+744370782,Europe,Slovakia,L,725776.66,428371.23
+873522365,Asia,Malaysia,M,1545064.8,930608.22
+285884702,Sub-Saharan Africa,Liberia,L,402897.95,269928.89
+356506621,Australia and Oceania,Vanuatu,H,3097999.2,1865956.38
+280749452,Australia and Oceania,Kiribati,L,2260759.68,1411823.52
+224287021,Middle East and North Africa,Turkey,M,93943.04,58666.56
+873105657,Europe,San Marino,M,2061.93,1529.32
+283504188,Europe,Vatican City,C,617033.52,394047.36
+632093942,Middle East and North Africa,Morocco,C,450727.55,301973.21
+565798747,Sub-Saharan Africa,Equatorial Guinea,L,538753.53,465709.13
+151854932,Middle East and North Africa,Jordan,M,940382.24,555036.72
+427811324,Asia,Kyrgyzstan,H,1191345.98,703161.69
+251529252,Sub-Saharan Africa,Republic of the Congo,L,18193.5,13494
+351182544,Australia and Oceania,East Timor,C,240160.92,153370.56
+175257527,Europe,Estonia,H,612584.28,529529.88
+142553031,Asia,Bangladesh,H,528689.7,337629.6
+292180383,Sub-Saharan Africa,Senegal,H,14209.59,10539.16
+733563411,Middle East and North Africa,Pakistan,L,61288.77,45457.48
+296438443,Europe,Czech Republic,H,74876.1,50164.62
+580854308,Sub-Saharan Africa,Ghana,C,2764223.28,2389448.88
+107172334,Asia,Japan,H,1543316,929554.9
+166066348,Asia,Kazakhstan,H,402831.84,251564.76
+768522679,Central America and the Caribbean,The Bahamas,H,273728.52,174807.36
+195840156,Sub-Saharan Africa,Ethiopia,M,1543035.43,1160364.86
+849630105,Sub-Saharan Africa,Burkina Faso,L,1435764.8,864775.72
+701816356,Sub-Saharan Africa,Madagascar,M,17820.3,13217.2
+944635236,Europe,Netherlands,M,4827419.73,3891528.48
+140635573,Europe,Greece,L,931446.76,549762.78
+972678697,Middle East and North Africa,Egypt,C,2571841.44,2223150.24
+793938434,Sub-Saharan Africa,South Sudan,M,26870.4,19929.6
+177901113,Europe,Kosovo,L,956534.16,597346.74
+668365561,Asia,Brunei,L,146003.65,97817.83
+729443109,Australia and Oceania,Australia,C,1121710.86,662061.33
+695557582,Sub-Saharan Africa,Cape Verde,H,91434,67816
+521445310,Sub-Saharan Africa,Malawi,H,4083129.7,3070519.4
+232155120,Asia,Philippines,L,712195.22,493822.38
+373048341,Europe,Estonia,L,101970.05,68316.71
+659798800,Central America and the Caribbean,Trinidad and Tobago,L,5197958.22,4190230.72
+428392827,Asia,Mongolia,C,6557065.24,4930922.48
+885129249,Asia,Japan,M,675825.37,468604.23
+156619393,Sub-Saharan Africa,Niger,C,2537246.46,2193245.66
+939787089,Middle East and North Africa,Egypt,M,699211.92,436651.38
+151868665,Central America and the Caribbean,Saint Lucia,C,25882.08,15276.24
+180412948,Middle East and North Africa,Qatar,C,1451213.5,826211.05
+333281266,Sub-Saharan Africa,Mali,H,39074.04,28980.96
+888647449,Central America and the Caribbean,Saint Lucia,L,4102247.6,2470825.39
+844997823,Sub-Saharan Africa,Swaziland,M,271888.64,89169.92
+171131217,Asia,Mongolia,M,3592.05,2664.2
+256158959,Sub-Saharan Africa,Botswana,C,1291349.43,1040995.68
+759504878,Europe,San Marino,H,1410407.2,849502.58
+960905301,Middle East and North Africa,Oman,C,19471.71,14442.04
+210409057,Asia,Bangladesh,C,2324819.7,1874107.2
+178377473,Sub-Saharan Africa,Namibia,C,2060523.6,1241074.29
+805484378,Asia,Mongolia,M,89400.06,66307.44
+752716100,Asia,North Korea,C,202896.2,135934.04
+551371467,Europe,Latvia,M,210364,68992
+353061807,Sub-Saharan Africa,Burundi,M,1173187.62,749216.16
+379710948,Sub-Saharan Africa,Seychelles ,C,307468.26,213192.54
+473555219,Sub-Saharan Africa,Kenya,H,898497.6,511536.48
+547143447,Sub-Saharan Africa,Benin,C,494919.6,398969.6
+133336961,Central America and the Caribbean,Saint Lucia,C,508769.25,352770.75
+635309588,Middle East and North Africa,Qatar,H,455641.2,393865.2
+376547658,Sub-Saharan Africa,Mozambique,C,364178.75,243988.25
+450849997,Middle East and North Africa,Pakistan,M,588800.64,193105.92
+672327935,Asia,Taiwan,M,460221.63,319108.77
+925405299,Central America and the Caribbean,Cuba,L,1408427.9,801852.17
+714818418,Central America and the Caribbean,Cuba,H,6354579.43,4778652.86
+515616118,Europe,Russia,C,53238.9,35668.38
+423159730,Europe,Switzerland,C,251365.4,143108.42
+603123080,Europe,Czech Republic,H,521192.21,361384.59
+841492497,Europe,Poland,C,2187499.65,1890917.65
+994566810,Sub-Saharan Africa,Mauritius ,L,673667.5,383535.25
+538957345,Middle East and North Africa,Pakistan,M,1280238.6,755628.3
+821587932,Sub-Saharan Africa,South Africa,L,46472.73,34468.52
+109694898,Sub-Saharan Africa,Seychelles ,C,8687.51,6533.02
+340827071,Sub-Saharan Africa,Benin,M,3020310.51,2610815.71
+372845780,Sub-Saharan Africa,Benin,L,931111.23,804870.83
+933924853,Central America and the Caribbean,Nicaragua,M,74388.09,55173.16
+572550618,Middle East and North Africa,Lebanon,L,6060160.26,4885277.76
+607521903,Europe,Moldova ,M,3411402.54,2948883.34
+177950036,Middle East and North Africa,Tunisia ,H,1254970.5,801444
+293258845,Australia and Oceania,Vanuatu,M,31506.8,21108.56
+683184659,Sub-Saharan Africa,South Sudan,C,397488.65,266304.83
+247776305,Europe,Sweden,L,281809,160440.7
+207395112,Europe,Ireland,C,707509.53,611585.13
+952714908,Europe,Italy,L,1289020.02,760811.31
+694722020,Europe,Bosnia and Herzegovina,C,391158.34,230871.27
+414715278,Europe,Bosnia and Herzegovina,H,1551054.67,1166395.34
+714306008,Europe,Poland,M,1201720.08,767437.44
+465418040,Middle East and North Africa,Kuwait,H,975901.68,623226.24
+860287702,Sub-Saharan Africa,Sudan,M,1461087.1,831832.33
+461463820,Middle East and North Africa,Saudi Arabia,C,963491.24,568676.22
+151807725,Sub-Saharan Africa,Swaziland,M,544767.52,340202.28
+884493243,Sub-Saharan Africa,Rwanda,C,25735.29,22246.09
+533006703,Asia,Cambodia,M,3227847.6,1944165.39
+641146934,Sub-Saharan Africa,Central African Republic,C,1306428.8,771086.4
+573025262,Asia,Maldives,M,4268820.8,2571154.12
+663065516,Sub-Saharan Africa,Djibouti,C,3124830.52,2349877.04
+866004025,Asia,Tajikistan,M,412387.95,276286.89
+306889617,Asia,Sri Lanka,H,1100767.36,687419.04
+431083619,Europe,Montenegro,M,496673.21,344383.59
+954259860,Middle East and North Africa,United Arab Emirates,H,453846.69,314688.51
+312404668,Central America and the Caribbean,Dominican Republic,C,518004.74,359174.46
+611816871,Sub-Saharan Africa,Seychelles ,C,5901916.23,4757712.48
+879107797,Europe,Iceland,C,4159929.48,3353444.48
+211201274,Sub-Saharan Africa,Nigeria,C,1233250.3,727894.65
+925333631,Sub-Saharan Africa,Rwanda,H,52611.87,39021.88
+909053695,Europe,Hungary,C,1227353.52,783807.36
+370222795,Europe,Belarus,L,1533466.96,957635.94
+487014758,Sub-Saharan Africa,South Sudan,H,3210796.8,1933895.52
+257915914,Europe,Andorra,M,293484.3,173221.65
+551725089,Asia,Japan,M,2771395.41,2395648.61
+957553613,Central America and the Caribbean,El Salvador,L,104628.72,90443.12
+234825313,Sub-Saharan Africa,Kenya,L,5784698.43,4663219.68
+363276517,Europe,Bosnia and Herzegovina,M,68508.42,43750.56
+692956054,Europe,Andorra,M,813213.5,563866.5
+194225251,Sub-Saharan Africa,Cape Verde,H,1933735.6,1164708.59
+607757937,Australia and Oceania,Nauru,L,74024.22,54903.28
+594540441,Europe,Czech Republic,H,1354123.1,770935.13
+685871589,Europe,Serbia,L,539210,318255
+133362710,Australia and Oceania,Tuvalu,C,790710.8,450170.84
+958937633,Sub-Saharan Africa,Madagascar,H,1072036.8,351590.4
+304832684,Sub-Saharan Africa,Ethiopia,C,865817.2,511026.6
+783596694,Asia,Malaysia,L,645858.4,403332.6
+128090989,Sub-Saharan Africa,Tanzania,C,2556132.75,1922215.5
+641489398,Sub-Saharan Africa,Cote d'Ivoire,M,1513331.38,893205.39
+647278249,Australia and Oceania,Solomon Islands,M,313961.44,102968.32
+339256370,Europe,Netherlands,H,257245.12,84367.36
+431535089,Sub-Saharan Africa,Mali,M,2470344.56,1542707.34
+808538234,Middle East and North Africa,Afghanistan,C,675930.2,384823.46
+975002133,Europe,Moldova ,C,298559.69,207015.51
+505975615,Asia,Bhutan,H,1263820.14,807095.52
+396820008,Asia,Vietnam,M,1034358.84,610504.02
+813209140,Europe,Portugal,H,849024.66,501115.23
+641129338,Europe,Spain,M,835531.44,521781.66
+636879432,Middle East and North Africa,Egypt,C,2376084.48,2053934.08
+277070748,Europe,Belgium,C,37534.68,23970.24
+908627116,Asia,Malaysia,H,791332,476627.3
+798784863,Central America and the Caribbean,Dominican Republic,C,3080948.4,1855686.51
+985092818,Europe,Estonia,H,460786.95,308712.69
+325412309,Sub-Saharan Africa,Burundi,C,852617.04,544494.72
+447917163,Europe,Latvia,M,355732.65,238329.63
+801093709,Asia,Tajikistan,M,120238.65,103936.65
+903740775,Sub-Saharan Africa,Zimbabwe,H,54421.89,40364.36
+794969689,Sub-Saharan Africa,Comoros,L,3397058.28,2936483.88
+584204280,Sub-Saharan Africa,Namibia,L,861563.52,282562.56
+901180875,Europe,Slovenia,H,1707721.4,972247.22
+645948302,Europe,Bulgaria,L,1420824.96,907361.28
+138867890,Sub-Saharan Africa,Guinea-Bissau,L,606815,345474.5
+670613467,Sub-Saharan Africa,Lesotho,L,392980.9,263284.78
+452171361,Asia,Sri Lanka,L,2802014.8,1687681.97
+464840400,Australia and Oceania,East Timor,H,832934.22,531924.96
+410231912,Europe,Belarus,M,3738302.38,2811208.76
+960269725,Sub-Saharan Africa,Benin,H,1690091.34,1460948.14
+607190167,Europe,Ireland,L,470656.55,315325.01
+613542068,Middle East and North Africa,Iran,H,4044659.43,3496283.03
+962186753,Sub-Saharan Africa,Benin,C,866746.19,651794.38
+806298053,Sub-Saharan Africa,South Sudan,L,17366.7,11635.14
+719362294,Sub-Saharan Africa,Comoros,L,338689.12,234840.48
+445178306,Europe,Poland,H,1789002.24,1117215.36
+247857415,Europe,Bosnia and Herzegovina,C,2348638.4,1414608.76
+461823451,Sub-Saharan Africa,Namibia,C,412418.62,243419.61
+141812741,Europe,Spain,C,2862719.16,2307724.16
+212874114,Middle East and North Africa,Iran,C,1280858.04,1107198.84
+320368897,Central America and the Caribbean,Guatemala,C,2038938.51,1643649.76
+179970920,Australia and Oceania,East Timor,C,296515.05,198655.71
+927666509,Middle East and North Africa,Bahrain,H,4002937.3,3010214.6
+169754493,Sub-Saharan Africa,Ethiopia,L,1941908.22,1565430.72
+532846200,Australia and Oceania,Solomon Islands,M,807982.78,560239.62
+213865458,Central America and the Caribbean,Belize,C,976054.26,623323.68
+630048596,Asia,Sri Lanka,C,2758525.56,2223730.56
+568944442,Central America and the Caribbean,Costa Rica,H,235826.24,77342.72
+238414323,Sub-Saharan Africa,Nigeria,L,242771.28,151608.42
+816632068,Middle East and North Africa,Iran,L,5490351.51,4425937.76
+402084004,Sub-Saharan Africa,Djibouti,C,1135230.16,708940.74
+763568961,Asia,South Korea,L,897017.82,572849.76
+590198266,Central America and the Caribbean,Dominica,L,249773.46,159509.28
+441395747,Asia,Vietnam,L,1169525.7,746877.6
+496897733,Europe,Norway,H,158229.28,109713.12
+106753051,Central America and the Caribbean,Haiti,C,448639.75,300574.45
+941323029,Central America and the Caribbean,Jamaica,L,67717.14,50225.36
+241281497,Sub-Saharan Africa,Sudan,M,1450012.72,855833.16
+267614781,Sub-Saharan Africa,Angola,L,850530.24,735215.04
+651621711,Central America and the Caribbean,Panama,M,3585040,2159306
+644913613,Europe,Greece,M,255324.52,177037.08
+469414317,Sub-Saharan Africa,Madagascar,H,1847803.1,1051999.13
+867360150,Sub-Saharan Africa,Guinea-Bissau,L,1092581.44,358328.32
+851299941,North America,Greenland,L,811404,266112
+854095017,Middle East and North Africa,Libya,H,215897.5,144644.5
+478919208,Europe,Belarus,C,260515.46,153762.63
+749258840,Middle East and North Africa,Lebanon,H,130698.88,42864.64
+958912742,Sub-Saharan Africa,Djibouti,H,623904.32,389622.48
+921992242,Central America and the Caribbean,Barbados,C,559687.04,388076.16
+522921168,Sub-Saharan Africa,Guinea-Bissau,L,438916.94,259059.57
+166435849,Europe,Finland,C,75273.33,52193.07
+327585113,Central America and the Caribbean,Haiti,L,2187494.32,1366069.98
+201730287,Sub-Saharan Africa,Niger,M,582462.4,191027.2
+854545199,Central America and the Caribbean,Trinidad and Tobago,L,72484.77,53761.48
+272016179,Central America and the Caribbean,Grenada,M,366722.51,254278.29
+110442054,Central America and the Caribbean,Dominican Republic,H,228944.1,130343.43
+746434152,Europe,Monaco,C,3547177.16,2667482.32
+826916301,Europe,Estonia,L,271761.84,160400.52
+419124829,Europe,Italy,H,341924.7,229078.74
+560608565,Asia,Malaysia,C,3508068.27,2827959.52
+109228837,Sub-Saharan Africa,Ghana,L,1364284.95,1099791.2
+693159472,Middle East and North Africa,Pakistan,C,15954.88,5232.64
+860886800,Asia,Sri Lanka,L,669826.2,427761.6
+131209647,Europe,Romania,C,62557.65,46398.6
+343239343,Middle East and North Africa,Qatar,H,653814.84,527059.84
+706399714,Sub-Saharan Africa,Cote d'Ivoire,H,899155.84,294891.52
+950427091,Middle East and North Africa,Egypt,M,880435.92,709745.92
+875370299,Middle East and North Africa,Iran,H,57827.82,36929.76
+801590669,Middle East and North Africa,Somalia,C,802880.16,263316.48
+219762027,Middle East and North Africa,Syria,C,108047.06,74917.74
+940870702,Australia and Oceania,Solomon Islands,C,700202.8,398642.44
+346215522,Central America and the Caribbean,Guatemala,M,16056.93,11909.32
+837407815,Middle East and North Africa,Kuwait,C,703326.08,230666.24
+386371409,Middle East and North Africa,Jordan,L,2000180.49,1728995.29
+185342633,Australia and Oceania,Marshall Islands,H,278009.55,186257.61
+596870315,Middle East and North Africa,Egypt,C,922346.1,589024.8
+703815782,Europe,Switzerland,C,1512475.65,1307413.65
+559352862,Australia and Oceania,Samoa ,C,310328.81,215175.99
+736967885,Europe,Portugal,C,1761478.8,1060956.57
+980459678,Europe,Albania,C,946474.08,310410.24
+653939568,Central America and the Caribbean,Dominica,C,632416.3,373267.65
+991831386,Australia and Oceania,Tuvalu,H,1662671.6,1001443.99
+148871457,Australia and Oceania,Marshall Islands,L,663793.9,377913.97
+850108611,Europe,Bulgaria,H,45567.72,33797.28
+940904176,Sub-Saharan Africa,Niger,M,2154853.89,1737092.64
+136931979,Central America and the Caribbean,Saint Vincent and the Grenadines,H,45584.7,36747.2
+474178349,Sub-Saharan Africa,Malawi,L,415946.7,278671.14
+458942115,Sub-Saharan Africa,Cape Verde,L,2043.25,1416.75
+917834603,Central America and the Caribbean,Saint Vincent and the Grenadines,C,308899.5,206952.9
+947779643,Europe,Greece,H,646729.49,448429.71
+166013562,Europe,Monaco,L,650980.96,213498.88
+960085189,Sub-Saharan Africa,Nigeria,L,445887.65,298730.63
+837855851,Europe,Norway,C,3943544,2375236.6
+977499377,North America,Greenland,L,403268.94,257533.92
+377502095,Middle East and North Africa,Tunisia ,L,5409.3,3624.06
+806662833,Asia,Uzbekistan,H,3507171.57,3031667.97
+954092919,Central America and the Caribbean,Saint Kitts and Nevis ,H,947777.12,559401.36
+479216182,Central America and the Caribbean,Belize,L,4038331.08,3490812.68
+461768949,Sub-Saharan Africa,Angola,H,535168.04,371075.16
+251800048,Asia,Bhutan,C,879640.65,760378.65
+619670808,Central America and the Caribbean,Honduras,L,262925.41,182307.39
+606055057,Sub-Saharan Africa,South Sudan,H,2682435.78,2017195.56
+671939122,Asia,Kyrgyzstan,L,146275.44,91347.66
+448621833,Sub-Saharan Africa,Sao Tome and Principe,M,2634130,1586563.25
+987714517,Sub-Saharan Africa,Madagascar,M,51594.9,38267.6
+711141002,Sub-Saharan Africa,Senegal,H,855385.6,643251.2
+361137616,Sub-Saharan Africa,Sierra Leone,C,4884726.21,3937724.96
+750253188,Asia,Malaysia,H,3639398.42,2736832.84
+511349046,Central America and the Caribbean,Cuba,C,5470815.21,4410188.96
+147599017,Sub-Saharan Africa,Zimbabwe,L,546283.32,378782.28
+682489430,Europe,Serbia,H,125457.8,84052.76
+509819114,Asia,Maldives,M,871979.6,514663.8
+343699395,Europe,Ireland,M,4652244.24,3750314.24
+968554103,Europe,Romania,L,605083.36,198446.08
+989119565,Europe,Croatia,M,62396.75,41803.85
+880444610,Europe,Albania,M,305038.8,180041.4
+737890565,Central America and the Caribbean,Dominican Republic,L,1089358.26,642966.03
+727131259,Sub-Saharan Africa,Zimbabwe,M,485751.18,286702.29
+634153020,Sub-Saharan Africa,Ghana,L,5747579.46,4633296.96
+315254676,Asia,Laos,H,461166.55,308967.01
+147047555,Central America and the Caribbean,Panama,M,285564.62,198004.98
+576455485,Sub-Saharan Africa,Angola,L,3236431.61,2433801.22
+770714795,Middle East and North Africa,Syria,L,74764.2,47745.6
+867374312,Sub-Saharan Africa,Sierra Leone,H,1831430.8,1103089.37
+624295365,Sub-Saharan Africa,Uganda,L,16112.91,11950.84
+769651782,Asia,Taiwan,M,647046.88,212208.64
+751929891,Middle East and North Africa,Azerbaijan,C,249423.14,147215.67
+989928519,Asia,Maldives,H,457149.42,368521.92
+622758996,Sub-Saharan Africa,Mauritania,H,2987403.09,2582369.89
+659845149,Sub-Saharan Africa,Burundi,H,433465.44,270695.16
+830923306,Sub-Saharan Africa,Zambia,H,1921237.28,1199794.92
+936042296,Asia,Singapore,L,216893.95,145312.09
+395563447,Sub-Saharan Africa,Ghana,L,3253806.63,2446867.26
+500160586,Sub-Saharan Africa,Guinea,M,3158690.43,2730434.03
+360820043,Sub-Saharan Africa,Zambia,L,32878.92,24386.08
+958840644,Europe,Georgia,C,169211.22,108060.96
+195833718,Middle East and North Africa,Bahrain,M,103133.12,64405.68
+543723094,Sub-Saharan Africa,Lesotho,M,702959.73,487418.67
+494745099,Central America and the Caribbean,Barbados,H,2152772.8,1296636.92
+411448562,Middle East and North Africa,Saudi Arabia,H,867049.68,511754.04
+276694810,Europe,Macedonia,H,735406.54,509916.66
+143657672,Asia,Turkmenistan,M,229225.92,184785.92
+585823476,Europe,Albania,L,1797171.2,1122316.8
+446991050,Middle East and North Africa,Afghanistan,C,375923.2,123289.6
+891271722,Australia and Oceania,Kiribati,M,651636.64,213713.92
+453089320,Middle East and North Africa,Morocco,C,3520771.6,2120596.49
+887180173,Europe,Norway,L,1323116.24,826273.86
+418593108,Europe,Sweden,L,4309917.6,2595907.14
+492689454,Asia,Tajikistan,M,540480.49,374758.71
+825143039,Europe,Netherlands,M,,
+751940190,Europe,Spain,L,,
+579379737,Sub-Saharan Africa,Chad,H,49524.32,30927.48
+234073007,Europe,Ireland,C,2640609.51,2282594.71
+612943828,Middle East and North Africa,Pakistan,C,1077507.06,931418.26
+433228528,Sub-Saharan Africa,Mozambique,C,7501.32,5563.68
+282475936,Middle East and North Africa,Bahrain,L,91079.46,67553.04
+368547379,Asia,Tajikistan,M,90284.46,78043.66
+969616687,Australia and Oceania,New Zealand,H,4210462.2,3639606.2
+184170186,Sub-Saharan Africa,Niger,L,2273523.68,1419794.52
+681006705,Europe,Armenia,C,36125.76,26794.24
+249237573,Sub-Saharan Africa,Gabon,L,967766.48,604361.22
+348286616,Asia,Kyrgyzstan,H,709292.24,418641.72
+257890164,Australia and Oceania,Fiji,L,468264.8,153574.4
+228097045,Europe,Romania,H,3427210.8,2064243.87
+129268586,Sub-Saharan Africa,Botswana,C,473521.4,269587.22
+802078616,Australia and Oceania,Fiji,M,761165.2,458457.53
+907513463,Europe,Vatican City,C,246535.68,80855.04
+976871955,Asia,Thailand,L,1074568.5,634236.75
+261765420,Europe,Belarus,C,218042,124136.6
+784117686,Australia and Oceania,Solomon Islands,L,1032664.18,609503.79
+586165082,Asia,China,M,3553561.6,2140346.24
+480456435,Sub-Saharan Africa,Angola,C,1005654.78,642227.04
+899853074,Asia,Cambodia,L,1105843.2,629583.36
+547528827,Central America and the Caribbean,Guatemala,L,1225854.56,765534.84
+446970021,Sub-Saharan Africa,Namibia,L,1111851.02,656241.81
+791975486,Europe,Serbia,H,94947.45,63611.79
+496656548,Middle East and North Africa,Turkey,M,86889.84,51284.52
+345437037,Middle East and North Africa,Pakistan,C,208135.06,122846.43
+743053281,Europe,Georgia,H,744571.98,439464.69
+364554107,Australia and Oceania,Vanuatu,L,1299371.28,829799.04
+205300843,Europe,Luxembourg,H,846856.4,510070.21
+430967319,Middle East and North Africa,Saudi Arabia,M,1109996.47,834718.94
+827539861,Australia and Oceania,Vanuatu,H,2653266.21,2293535.41
+351317298,Central America and the Caribbean,Haiti,H,221241,141288
+278910958,Sub-Saharan Africa,Tanzania,C,3211037.35,2414704.7
+157244670,Asia,North Korea,C,457748.4,275706.51
+953554761,Middle East and North Africa,Bahrain,L,327357.55,219319.21
+105390059,Sub-Saharan Africa,Cote d'Ivoire,L,1257855.5,716127.65
+970611894,Asia,Singapore,L,1959967.6,1180508.39
+677394092,Asia,Malaysia,M,1230449.6,768404.4
+474222981,Europe,Albania,L,503667.44,314535.66
+779897391,Sub-Saharan Africa,Gabon,L,1193785.92,762370.56
+733528649,Europe,Poland,L,958660.14,612215.52
+444540584,Sub-Saharan Africa,Chad,H,5399833.32,4352968.32
+542669522,Sub-Saharan Africa,Republic of the Congo,H,745945.28,244643.84
+827964293,Asia,Philippines,L,17615.04,13064.96
+720786225,Europe,France,M,841631.28,537479.04
+611809146,Europe,Germany,H,4528865.79,3405713.58
+512019383,Sub-Saharan Africa,Uganda,M,553230.37,383599.23
+502715766,Middle East and North Africa,Bahrain,C,295944.33,205202.07
+285509622,Middle East and North Africa,Jordan,M,4882121.37,3935625.12
+532324779,Europe,Montenegro,L,265055.7,177578.94
+635397565,Middle East and North Africa,Tunisia ,H,581427.22,403150.38
+957276809,Europe,Germany,M,1714509.5,976111.85
+580823838,Europe,Italy,L,1149842.88,734307.84
+459212481,Europe,France,H,21489.93,17323.68
+265929067,Middle East and North Africa,Algeria,L,810514,506158.5
+644772422,Asia,Myanmar,H,63725.35,42693.97
+959853875,Europe,France,C,145894.82,86110.71
+645597255,Europe,Spain,C,836391.74,493658.97
+556738889,Asia,Cambodia,C,67393.92,42086.88
+718327605,Sub-Saharan Africa,The Gambia,M,1225701.36,723439.08
+775724732,Europe,Russia,L,776306.48,484796.22
+444604098,Europe,Belarus,H,1809424.64,1129968.96
+860952031,Middle East and North Africa,Turkey,C,175232.85,117400.47
+531067359,Sub-Saharan Africa,Kenya,C,1471552.32,1272038.72
+281561410,Middle East and North Africa,Iran,M,3992947.6,2404992.89
+109358012,Asia,Vietnam,L,26235.33,18191.07
+531693494,Europe,Albania,L,416373.75,278957.25
+336116683,Central America and the Caribbean,Antigua and Barbuda ,C,355269.28,116515.84
+630488908,Sub-Saharan Africa,Senegal,M,932643.8,530976.74
+792983996,Europe,Netherlands,L,4114.53,3051.72
+722088277,Europe,Russia,C,7669.26,5688.24
+386600577,Europe,Slovakia,H,1117920.4,673334.81
+275632226,Australia and Oceania,East Timor,L,216182.2,144835.24
+948607051,Central America and the Caribbean,Haiti,H,425359.66,251057.73
+785261380,Middle East and North Africa,Yemen,H,1058737.9,602765.17
+935644042,Australia and Oceania,Tuvalu,C,1382098.3,786862.09
+370116364,Sub-Saharan Africa,Liberia,M,688440.96,439649.28
+829352176,Asia,North Korea,C,123085.3,82463.26
+974337804,Asia,North Korea,M,4719991.01,3549440.02
+436372077,Europe,Romania,H,701683.5,527667
+267066323,,,M,1998375.5,1137723.65
+688344371,Middle East and North Africa,Bahrain,M,48991.83,36336.92
+642442548,Middle East and North Africa,Somalia,M,822373.2,495323.73
+941909682,Europe,Cyprus,C,177107.7,100831.71
+219607102,Europe,United Kingdom,C,259883.65,174113.83
+778708636,Europe,Germany,H,494057.85,342570.15
+942700612,Middle East and North Africa,Somalia,M,233216.75,156247.85
+905381858,Australia and Oceania,New Zealand,H,979683.82,736723.64
+480863702,Middle East and North Africa,Kuwait,C,2999637.9,2592945.9
+453569972,Asia,Japan,L,126350.8,76102.37
+328236997,Europe,Norway,H,376793.28,235303.92
+579913604,Sub-Saharan Africa,Lesotho,C,668306.21,463390.59
+403961122,Europe,Belgium,H,4340521.6,2614340.24
+866053378,Central America and the Caribbean,Honduras,L,1440574,867672.35
+852176702,Europe,Austria,C,4596361.06,3456470.12
+218629920,Middle East and North Africa,Oman,M,1610050.96,1005461.94
+242024362,Middle East and North Africa,Oman,C,2359297.76,1473359.64
+469283854,Europe,Spain,M,57370.08,36637.44
+967644727,Middle East and North Africa,Afghanistan,C,60019.89,44516.36
+974655807,Central America and the Caribbean,Saint Vincent and the Grenadines,L,510212.4,307306.11
+248178422,Europe,Iceland,M,56231.9,33189.45
+416386401,Asia,Myanmar,L,1054386.64,622324.92
+927766072,Europe,Netherlands,L,832018.74,531340.32
+401116263,Europe,Slovakia,M,1243418.26,733896.03
+675548303,Middle East and North Africa,Bahrain,H,80331.3,59581.2
+960486018,Sub-Saharan Africa,Lesotho,L,2045303.36,1277273.04
+985665738,Central America and the Caribbean,Cuba,L,1010840,331520
+551136291,Middle East and North Africa,Afghanistan,C,254731.68,83543.04
+877259004,Australia and Oceania,Vanuatu,L,1910747.3,1087834.79
+554707705,Asia,Bhutan,M,436160.4,292213.68
+494468724,Australia and Oceania,Palau,L,645692.3,367608.29
+777840888,Asia,Indonesia,H,756738.07,524707.53
+206435525,Europe,Andorra,C,1969229.92,1229765.88
+352176463,Middle East and North Africa,Algeria,C,3709292.16,2990172.16
+607300031,Australia and Oceania,Vanuatu,C,1061958.8,639628.57
+434355056,North America,Mexico,H,1064007.04,664462.56
+716202867,Europe,Macedonia,M,85826.67,63657.08
+606017291,Central America and the Caribbean,Panama,H,231949.74,160829.46
+677284657,Asia,Nepal,H,501085.2,285279.96
+673803794,Asia,Nepal,C,22121.43,16407.32
+859686028,Sub-Saharan Africa,Mauritius ,C,1862613.5,1060431.05
+669355189,Sub-Saharan Africa,Sao Tome and Principe,H,648030.4,212531.2
+957547605,Central America and the Caribbean,Saint Vincent and the Grenadines,L,79025.1,58612.4
+849312102,Asia,Maldives,M,750281.4,520230.6
+890010011,Sub-Saharan Africa,Swaziland,H,212089.35,147058.65
+795315158,Middle East and North Africa,Morocco,H,58418.8,33259.24
+801213872,Asia,Maldives,M,638632.32,209448.96
+314004981,Sub-Saharan Africa,Zimbabwe,C,92432.31,68556.44
+160299813,Asia,India,C,1055652.4,601008.52
+337022197,Asia,Tajikistan,C,57509.4,38529.48
+461408460,Sub-Saharan Africa,Lesotho,M,1506269.76,961927.68
+221007430,Asia,Bhutan,M,6424186.65,5178730.4
+723680436,Central America and the Caribbean,Trinidad and Tobago,L,301803.24,192736.32
+447601306,Australia and Oceania,Tuvalu,L,37581.24,27873.76
+191256368,Middle East and North Africa,Iraq,L,640817.92,210165.76
+823444449,Sub-Saharan Africa,The Gambia,L,672625.96,397000.38
+133276879,Middle East and North Africa,Bahrain,C,400715.25,268466.55
+480177485,Middle East and North Africa,Qatar,H,1705701.27,1474441.67
+243882596,Sub-Saharan Africa,Angola,H,6104646.45,4590702.9
+574441039,Central America and the Caribbean,Costa Rica,L,3814132.8,2297290.92
+442214143,Australia and Oceania,Papua New Guinea,M,6580454.69,4948511.38
+687875735,Middle East and North Africa,Qatar,C,718078.88,235504.64
+872412145,Central America and the Caribbean,Saint Kitts and Nevis ,H,545853.6,179020.8
+627122199,Sub-Saharan Africa,Sierra Leone,C,76972.5,57090
+103617227,Europe,Russia,M,13948.35,10345.4
+423821055,Europe,Lithuania,M,1066557.38,629508.39
+529970014,Europe,United Kingdom,L,1349411.54,796455.87
+334612929,Asia,Indonesia,H,674762.88,467867.52
+270611131,Asia,Mongolia,M,412909.9,276636.58
+841138446,Middle East and North Africa,Egypt,C,268949.73,216808.48
+369681203,Sub-Saharan Africa,Comoros,M,3834533.26,2883574.52
+850038230,Europe,Slovenia,M,2711171.39,2038804.78
+296320855,Middle East and North Africa,Lebanon,M,321758.45,215567.99
+392952907,Australia and Oceania,Australia,L,1028294.4,619352.16
+644670712,Central America and the Caribbean,Haiti,M,189962.1,121312.8
+626523101,Central America and the Caribbean,Saint Kitts and Nevis ,L,406280.07,351196.47
+433871400,Middle East and North Africa,Syria,M,160838.64,94930.92
+232389438,Asia,Laos,M,1228879.32,784781.76
+708063542,Central America and the Caribbean,Saint Kitts and Nevis ,H,121774.4,69329.12
+817192542,Sub-Saharan Africa,Sudan,H,660609.28,389907.84
+936387765,Central America and the Caribbean,Guatemala,H,2870117.67,2480986.07
+612573039,Asia,Brunei,H,309262.4,101427.2
+812984693,,,M,993573.76,325857.28
+775171554,Central America and the Caribbean,Panama,C,3942140.16,3407663.36
+256994950,Sub-Saharan Africa,Central African Republic,H,6263026.44,4709804.88
+886628711,Middle East and North Africa,Bahrain,M,94567.85,63357.47
+312559163,Sub-Saharan Africa,Burundi,C,97604.65,65392.03
+753585135,Europe,Austria,L,296825.1,168989.73
+448817956,Australia and Oceania,Fiji,H,192741.9,129130.98
+407681453,Australia and Oceania,Fiji,M,93543.68,30679.04
+359911954,Europe,Switzerland,H,732384,467712
+105558288,Middle East and North Africa,Yemen,M,3840836.58,3096214.08
+864981782,Sub-Saharan Africa,Comoros,H,505581.78,350560.62
+328856265,Sub-Saharan Africa,Democratic Republic of the Congo,C,3081525.72,2484110.72
+308168065,Asia,Mongolia,H,287734.24,94366.72
+884216010,Australia and Oceania,Palau,L,5360193.67,4030873.34
+858611428,Europe,Monaco,M,161277.06,102994.08
+903278148,Australia and Oceania,Fiji,L,1837312.4,1046026.52
+410452497,Sub-Saharan Africa,Mali,L,41281.5,27657.3
+642683303,Sub-Saharan Africa,Liberia,H,643018.2,366085.86
+682831895,Europe,Switzerland,L,189183.15,126746.73
+584072101,Australia and Oceania,Samoa ,L,2238550.32,1397953.98
+919890248,Asia,Nepal,C,2033931.69,1758170.49
+534085166,Middle East and North Africa,Azerbaijan,C,995431.92,635698.56
+590768182,Europe,Georgia,H,73520.64,45912.96
+524363124,Middle East and North Africa,United Arab Emirates,C,1472197.36,868927.08
+289606320,Europe,Finland,L,6549714.27,4925394.54
+811546599,Europe,Portugal,C,725709.6,413164.08
